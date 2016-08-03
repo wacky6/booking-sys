@@ -244,7 +244,7 @@ export default {
           removeOnDestroy: true
         }
       )
-      // setTimeout( ()=>popper.destroy(), timeout )
+      setTimeout( ()=>popper.destroy(), timeout )
     }
   }
 }
